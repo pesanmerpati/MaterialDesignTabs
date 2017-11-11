@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">MaterialDesignTabs</string>
+
+    <string name="fixed_tabs">Fixed tabs display all tabs concurrently and are best used with content
+        that benefits from quick pivots between tabs in fixed positions, such as switching transportation
+        methods for directions in Google Maps.</string>
+    <string name="fixed_tabs_2">Fixed tabs have equal width, calculated either as the view width
+        divided by the number of tabs, or based on the widest tab label. To navigate between fixed
+        tabs, touch the tab or swipe the content area left or right.</string>
+    <string name="fixed_tabs_3">https://material.io/guidelines/components/tabs.html</string>
 </resources>
