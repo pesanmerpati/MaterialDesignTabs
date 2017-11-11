@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.dev.rohmts.materialdesigntabs.Activities.MainActivity">
+    tools:context="com.dev.rohmts.materialdesigntabs.Activities.FixedTabsActivity">
 
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appBarLayout"
@@ -22,14 +22,20 @@
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
             app:layout_scrollFlags="scroll|enterAlways" />
 
+        <android.support.design.widget.TabLayout
+            android:id="@+id/fixedTabLayout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/tab_height"
+            app:tabMode="fixed"/>
+
     </android.support.design.widget.AppBarLayout>
 
-    <GridView
+    <android.support.v4.view.ViewPager
         android:layout_below="@+id/appBarLayout"
-        android:id="@+id/gridView"
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
 
-    </GridView>
+    </android.support.v4.view.ViewPager>
 
 </RelativeLayout>
