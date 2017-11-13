@@ -1,16 +1,27 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.dev.rohmts.materialdesigntabs.Fragments.ThreeFragment">
 
-    <TextView
-        android:autoLink="web"
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/fixed_tabs_3"
-        android:padding="8dp"
-        android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"/>
+        <TextView
+            android:autoLink="web"
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/fixed_tabs_3"
+            android:padding="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"/>
 
-</FrameLayout>
+        <TextView
+            android:layout_below="@id/textView"
+            android:autoLink="web"
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/source"
+            android:padding="8dp"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Body1"/>
+
+
+</RelativeLayout>

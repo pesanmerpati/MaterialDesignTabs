@@ -8,4 +8,5 @@
         divided by the number of tabs, or based on the widest tab label. To navigate between fixed
         tabs, touch the tab or swipe the content area left or right.</string>
     <string name="fixed_tabs_3">https://material.io/guidelines/components/tabs.html</string>
+    <string name="source">https://www.androidhive.info/2015/09/android-material-design-working-with-tabs</string>
 </resources>

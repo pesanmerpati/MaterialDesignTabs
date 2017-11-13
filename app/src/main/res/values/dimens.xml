@@ -4,4 +4,7 @@
     <dimen name="tab_height">48dp</dimen>
     <dimen name="padding_left_right">12dp</dimen>
     <dimen name="padding_bottom">20dp</dimen>
+    <dimen name="tab_height_icon_and_text">72dp</dimen>
+    <dimen name="padding_under_tab_icon_and_text">16dp</dimen>
+    <dimen name="between_icon_and_text">10dp</dimen>
 </resources>

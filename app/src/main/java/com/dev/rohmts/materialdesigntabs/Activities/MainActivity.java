@@ -10,6 +10,7 @@ import android.widget.ArrayAdapter;
 import android.widget.GridView;
 import android.widget.Toast;
 
+import com.dev.rohmts.materialdesigntabs.Fragments.OneFragment;
 import com.dev.rohmts.materialdesigntabs.R;
 
 import java.util.ArrayList;
@@ -26,7 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         final Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final String[] array = new String[] {"Fixed tabs", "Tabs with text only",
+        final String[] array = new String[] {"Fixed tabs",
                 "Tabs with icons and text", "Tabs with icons only", "Scrollable tabs"};
         List<String> list = new ArrayList<String>(Arrays.asList(array));
 
@@ -37,6 +38,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 if (i==0) {
                     startActivity(new Intent(MainActivity.this, FixedTabsActivity.class));
+                } else if (i==1) {
+                    startActivity(new Intent(MainActivity.this, IconAndTextActivity.class));
                 } else {
                     Toast.makeText(MainActivity.this, "Comming soon", Toast.LENGTH_SHORT).show();
                 }
