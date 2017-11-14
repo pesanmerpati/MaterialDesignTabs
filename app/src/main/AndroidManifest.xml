@@ -17,8 +17,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.FixedTabsActivity"></activity>
-        <activity android:name=".Activities.IconAndTextActivity"></activity>
+        <activity android:name=".Activities.FixedTabsActivity" />
+        <activity android:name=".Activities.IconAndTextActivity" />
+        <activity android:name=".Activities.IconOnlyActivity"></activity>
     </application>
 
 </manifest>
