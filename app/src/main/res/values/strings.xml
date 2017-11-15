@@ -9,4 +9,5 @@
         tabs, touch the tab or swipe the content area left or right.</string>
     <string name="fixed_tabs_3">https://material.io/guidelines/components/tabs.html</string>
     <string name="source">https://www.androidhive.info/2015/09/android-material-design-working-with-tabs</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

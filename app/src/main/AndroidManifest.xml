@@ -19,7 +19,8 @@
         </activity>
         <activity android:name=".Activities.FixedTabsActivity" />
         <activity android:name=".Activities.IconAndTextActivity" />
-        <activity android:name=".Activities.IconOnlyActivity"></activity>
+        <activity android:name=".Activities.IconOnlyActivity" />
+        <activity android:name=".Activities.ScrollableTabsActivity"></activity>
     </application>
 
 </manifest>

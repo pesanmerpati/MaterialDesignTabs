@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                     startActivity(new Intent(MainActivity.this, IconAndTextActivity.class));
                 } else if (i==2) {
                     startActivity(new Intent(MainActivity.this, IconOnlyActivity.class));
-                } else {
-                    Toast.makeText(MainActivity.this, "Comming soon", Toast.LENGTH_SHORT).show();
+                } else if (i==3) {
+                    startActivity(new Intent(MainActivity.this, ScrollableTabsActivity.class));
                 }
             }
         });
